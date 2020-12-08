@@ -13,6 +13,7 @@
 		989FEE622579CC60003A9AD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 989FEE612579CC60003A9AD2 /* Preview Assets.xcassets */; };
 		989FEE6C2579CF65003A9AD2 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989FEE6B2579CF65003A9AD2 /* Category.swift */; };
 		989FEE712579DB9A003A9AD2 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989FEE702579DB9A003A9AD2 /* HTTPClient.swift */; };
+		98A5E4F925801F9800FE117E /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A5E4F825801F9800FE117E /* URL+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		989FEE632579CC60003A9AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		989FEE6B2579CF65003A9AD2 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		989FEE702579DB9A003A9AD2 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		98A5E4F825801F9800FE117E /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		989FEE592579CC5F003A9AD2 /* Bff-demo */ = {
 			isa = PBXGroup;
 			children = (
+				98A5E4F725801F6E00FE117E /* Extensions */,
 				989FEE6F2579DB85003A9AD2 /* Services */,
 				989FEE6A2579CF39003A9AD2 /* Models */,
 				989FEE5A2579CC5F003A9AD2 /* Bff_demoApp.swift */,
@@ -89,6 +92,14 @@
 				989FEE702579DB9A003A9AD2 /* HTTPClient.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		98A5E4F725801F6E00FE117E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				98A5E4F825801F9800FE117E /* URL+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +173,7 @@
 			files = (
 				989FEE5D2579CC5F003A9AD2 /* ContentView.swift in Sources */,
 				989FEE5B2579CC5F003A9AD2 /* Bff_demoApp.swift in Sources */,
+				98A5E4F925801F9800FE117E /* URL+Extensions.swift in Sources */,
 				989FEE712579DB9A003A9AD2 /* HTTPClient.swift in Sources */,
 				989FEE6C2579CF65003A9AD2 /* Category.swift in Sources */,
 			);
