@@ -16,7 +16,7 @@ enum NetWorkErrors: Error {
 class HTTPClient {
     func fetchCategories(completion: @escaping (Result<[Category], NetWorkErrors>) -> Void) {
     
-        guard let url = URL(string: "http://localhost:3000/v1/bff/categories/3") else {
+        guard let url = URL.forCategoriesByName() else {
             return completion(.failure(.badURL))
         }
     
