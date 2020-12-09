@@ -35,6 +35,10 @@ struct CategoryViewModel { // I expose here only the data that I want to view
     
     let category: Category
     
+    var id: Int {
+        category.id
+    }
+    
     var name: String {
         category.name
     }
