@@ -43,6 +43,9 @@ struct CategoryViewModel { // I expose here only the data that I want to view
         category.name
     }
     
+    var hasChildren: Bool {
+        category.hasChildren
+    }
 //    var names: Array<String> {
 //
 //    }

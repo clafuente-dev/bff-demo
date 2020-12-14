@@ -13,13 +13,16 @@ struct CategoryListScreen: View {
     
     init() {
         self.categoryListVM = CategoryListViewModel()
-        self.categoryListVM.getByName("Despensa")
+        self.categoryListVM.getByName("")
     }
     
     var body: some View {
         VStack {
             CategoryListView(categories: self.categoryListVM.categories)
-        }
+                .padding([.top, .bottom]) // Default padding to Top and Bottom
+            Spacer() // Spacer will make the component above to go up
+                .navigationBarTitle("App Unimarc")
+        }.embedNavigationView()
     }
 }
 

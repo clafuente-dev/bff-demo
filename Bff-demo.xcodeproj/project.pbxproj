@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		989FEE5B2579CC5F003A9AD2 /* Bff_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989FEE5A2579CC5F003A9AD2 /* Bff_demoApp.swift */; };
-		989FEE5D2579CC5F003A9AD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989FEE5C2579CC5F003A9AD2 /* ContentView.swift */; };
 		989FEE5F2579CC60003A9AD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 989FEE5E2579CC60003A9AD2 /* Assets.xcassets */; };
 		989FEE622579CC60003A9AD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 989FEE612579CC60003A9AD2 /* Preview Assets.xcassets */; };
 		989FEE6C2579CF65003A9AD2 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989FEE6B2579CF65003A9AD2 /* Category.swift */; };
@@ -23,7 +22,6 @@
 /* Begin PBXFileReference section */
 		989FEE572579CC5F003A9AD2 /* Bff-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bff-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		989FEE5A2579CC5F003A9AD2 /* Bff_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bff_demoApp.swift; sourceTree = "<group>"; };
-		989FEE5C2579CC5F003A9AD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		989FEE5E2579CC60003A9AD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		989FEE612579CC60003A9AD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		989FEE632579CC60003A9AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,7 +71,6 @@
 				989FEE6F2579DB85003A9AD2 /* Services */,
 				989FEE6A2579CF39003A9AD2 /* Models */,
 				989FEE5A2579CC5F003A9AD2 /* Bff_demoApp.swift */,
-				989FEE5C2579CC5F003A9AD2 /* ContentView.swift */,
 				989FEE5E2579CC60003A9AD2 /* Assets.xcassets */,
 				989FEE632579CC60003A9AD2 /* Info.plist */,
 				989FEE602579CC60003A9AD2 /* Preview Content */,
@@ -207,7 +204,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				989FEE5D2579CC5F003A9AD2 /* ContentView.swift in Sources */,
 				98A5E5092580665600FE117E /* View+Extensions.swift in Sources */,
 				989FEE5B2579CC5F003A9AD2 /* Bff_demoApp.swift in Sources */,
 				98A5E4F925801F9800FE117E /* URL+Extensions.swift in Sources */,
